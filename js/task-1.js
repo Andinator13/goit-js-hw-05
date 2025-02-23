@@ -1,4 +1,6 @@
-function getUserNames(users) {}
+const getUserNames = (users) => {
+ return [users.name]
+}
 
 console.log(
   getUserNames([
